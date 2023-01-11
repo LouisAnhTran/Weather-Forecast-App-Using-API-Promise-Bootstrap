@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Weather Forcast App Using API and Promise</title>
+
+    <!-- Link to CSS boostrap -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Link to our own CSS file -->
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+    <p class="fs-1 text-primary text-center my-4">Weather Forecast App using API</p>
+
+    <div class="input-group input-group-lg container nana">
+        <span class="input-group-text" id="inputGroup-sizing-lg">Input Location</span>
+
+        <input type="text" class="form-control" aria-label="Sizing example input"
+            aria-describedby="inputGroup-sizing-lg" id="input_address">
+    </div>
+
+    <dir id="add_img">
+
+    </dir>
+
+    <button type="button" class="btn btn-success" class="submit" id="submit">SUBMIT</button>
+
+    <div class="output">
+        <div class="row">
+            <span class="col-3">Country</span>
+            <p class="border border-primary col-9" id="country">Output</p>
+        </div>
+
+        <div class="row">
+            <span class="col-3">Weather</span>
+            <p class="border border-primary col-9" id="weather">Output</p>
+        </div>
+
+        <div class="row">
+            <span class="col-3">Humidity</span>
+            <p class="border border-primary col-9" id="humidity">Output</p>
+        </div>
+
+        <div class="row">
+            <span class="col-3">Temperature</span>
+            <p class="border border-primary col-9" id="temperature">Output </p>
+        </div>
+
+        <div class="row">
+            <span class="col-3">Local Time</span>
+            <p class="border border-primary col-9" id="local_time">Output</p>
+        </div>
+
+        
+
+    </div>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=WeakRef,BigInt"></script>
+<script src="https://cdn.jsdelivr.net/npm/superagent"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <!-- Link to Bootstrap bundle JS file -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- link to our js file -->
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

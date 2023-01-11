@@ -1,0 +1,56 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.input-group-text{
+    background-color: #AED6F1;
+    font-weight: 500;
+    color: #1F618D;
+}
+
+.output{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.row span{
+    color: #F39C12 ;
+    font-weight: 800;
+    padding-top: 15px;
+}
+
+.row p{
+    border-radius: 5px;
+    border-color: #DC7633 !important ;
+    background-color: #FEF9E7;
+    font-size: 20px;
+    color: #D35400;
+    padding: 10px 15px;
+}
+
+.btn{
+    display: block;
+    text-align: center;
+    margin: 25px auto;
+    background-color: #2ECC71;
+    border: none;
+}
+.nana input{
+    transition: all 0.5s;
+    font-weight: 500;
+    font-size: 15px;
+    color: #1F618D !important;
+}
+
+.nana input:hover{
+    background-color: #EBF5FB;
+}
+
+.img_api{
+    display: block;
+    margin: 25px auto 5px;
+    width: 200px;
+    height: 200px;
+}
